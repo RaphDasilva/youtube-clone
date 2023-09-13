@@ -24,7 +24,6 @@ const SearchBar = () => {
             className="search-bar"
             placeholder="Search..."
             value=""
-            inputProps={{ 'aria-label': 'search' }}
             onChange={()=>{}}
         />
         <IconButton type="submit" sx={{ p: '10px', color: 'red' }} aria-label="search">
