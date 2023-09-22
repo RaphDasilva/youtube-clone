@@ -5,18 +5,16 @@ import { demoProfilePicture } from "../utils/constants";
 
 const ChannelCard = ({channelDetail, marginTop}) => 
   (
-    <Box 
-    sx={{
-        width: {md: '320px', sx: '356px'},
-        boxShadow: 'none',
-        borderRadius: 0,
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        height: '326px',
-        margin: 'auto',
-        marginTop,
-      }}
+    <Box sx={{ width:{ xs: '100%', sm: '358px', md:'320px'}, 
+    boxShadow: 'none', 
+    borderRadius: 0,
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+    height: '326px',
+    margin: 'auto',
+    marginTop,
+}}
     >
         <Link to={`/channel/${channelDetail?.id?.channelId}`}>
             <CardContent sx={{
