@@ -85,7 +85,7 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 
-- [Live Demo Link](comming soon)
+- [Live Demo Link](https://silver-media.onrender.com)
 
 <!-- GETTING STARTED -->
 
